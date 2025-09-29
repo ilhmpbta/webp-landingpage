@@ -19,33 +19,40 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar-nav">
-        <div class="logo"><img src="images/logo.png"/>
+  <nav class="navbar">
+    <div class="navbar-nav">
+      <!-- Left-side menu items -->
+      <div class="navbar-container">
         <a href="home.html">Home</a>
+      </div>
+      <div class="navbar-container">
         <a href="about.html">About Us</a>
+      </div>
+
+      <!-- Logo in the center -->
+      <div class="navbar-container">
+        <div class="logo">
+          <a href="#footer">
+            <img src="images/logo.png" alt="logo" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Right-side menu items -->
+      <div class="navbar-container">
         <a href="facilities.html">Facilities</a>
+      </div>
+      <div class="navbar-container">
         <a href="testimonies.html">Testimonies</a>
       </div>
-    </nav>
-
-<!-- Hero Section -->
-  <section class="home" id="home">
-    <div class="container hero">
-      <div class="hero-text">
-        <!-- <h2>Hello 👋</h2> -->
-        <h1 class="highlight">Kembang Jepun</h1>
-        <p>Jl. Kembang Jepun, Surabaya</p>
-        <a href="#projects" class="btn">Learn now</a>
-      </div>
-      <div class="hero-image">
-        <img src="images/Hero.png" alt="profile" />
-      </div>
     </div>
-  
-  </section>
+  </nav>
 
-    <footer>
+  <!-- X Section -->
+  
+
+  <!-- Footer -->
+    <footer id="footer">
       <div class="container">
         <p>Visit our socials</p>
         <div class="socials">
@@ -56,6 +63,19 @@
         <p class="credit">Created by <a href="about.html">Kelompok 1 PWEB B</a> | &copy; 2025</p>
       </div>
     </footer>
+
+  <!-- JS Scripts section -->
+    <!-- Auto hide navbar -->
+    <script>
+      const navbar = document.querySelector('.navbar');
+      let lastScrollY = window.scrollY;
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > lastScrollY) {
+          navbar.classList.add('navbar--hidden');
+        } else  navbar.classList.remove('navbar--hidden');
+        lastScrollY = window.scrollY;
+      });
+    </script>
 
     <!-- Feather Icons -->
     <script>
