@@ -1,6 +1,6 @@
 # WebP Landing Page
 
-A web programming landing page by modifying the template from [this](https://medialoot.com/preview/frame/chase.html) website.
+A web programming landing page made from scratch :>
 
 - 5025241152 Bintang Ilham Pabeta
 - 5025241162 Felix Aldorino
