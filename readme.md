@@ -10,12 +10,15 @@ We're basically supposed to make a landing page, and here it is. We have divided
 
 - About us
   
-  Coming soon, like very-very soon
+  <img width="1913" height="1003" alt="image" src="https://github.com/user-attachments/assets/cd693c75-3f99-41af-b653-1b43de7fe872" />
+
   
 - Facilities
   
-  Coming soon, like very-very soon
+  <img width="1915" height="1076" alt="image" src="https://github.com/user-attachments/assets/17a7bfe9-3e5b-4a93-b62c-70ac003257ac" />
+
   
 - Testimonies
   
-  Coming soon, like very-very soon
+  <img width="1909" height="1085" alt="image" src="https://github.com/user-attachments/assets/26c16879-a03a-42ba-bbab-943b56b7e3d5" />
+
